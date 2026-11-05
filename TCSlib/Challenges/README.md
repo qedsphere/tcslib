@@ -76,3 +76,11 @@ a draft until a reviewer has compared it with the paper.
   Decide whether they should enter the dataset (as `proof_complete = false` records) or be
   excluded before running it.
 * Nothing in `TCSlib/Challenges` is a proved result; do not cite it from library files.
+
+## Coverage reports
+
+`notes/tcslib_miss_report.pdf` (source `.tex` alongside) splits the 259 files into those that use
+TCSlib (61), near misses where a TCSlib definition exists in a shape the paper cannot use (37,
+fourteen encoding gaps with the smallest fix for each), and total misses with no TCSlib overlap
+(161, grouped by research area). `notes/tcslib_gap_report.md` has the per-file detail behind the
+near-miss gaps.
