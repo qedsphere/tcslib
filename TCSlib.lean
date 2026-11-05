@@ -59,3 +59,6 @@ import TCSlib.LearningTheory.MistakeBounds
 import TCSlib.LearningTheory.Hedge
 import TCSlib.LearningTheory.JohnsonLindenstrauss
 import TCSlib.LearningTheory.Minimax
+
+-- Statement-only challenge problems (see TCSlib/Challenges/README.md); leaves of the import graph.
+import TCSlib.Challenges
